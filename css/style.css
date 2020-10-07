@@ -1,0 +1,719 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:#fceed1;
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+.containertestimonial{
+	width:95%;
+	margin:auto;
+	overflow:hidden;
+}
+.green{
+	color:#beef00;
+}
+.red, .red a{
+	color:#e8491d;
+}
+
+/**	HEADER **/
+header{
+	background:#9bc400;
+	border-bottom:#e8491d 3px solid;
+}
+header #branding{
+	float:left;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+header #branding img{
+	position:relative;
+	border-radius:20px;
+	box-shadow:0px 5px 5px #000;
+	width:100px;
+	animation: fly1 1s;
+}
+@keyframes fly1{
+	0%{top:-50px;}
+	100%{top:0px;}
+}
+
+header nav{
+	float:right;
+	margin-top:30px;
+	margin-bottom:20px;
+	position:relative;
+	animation: fly2 1s;
+}
+@keyframes fly2{
+	0%{right:-500px;}
+	100%{right:0px;}
+}
+header nav li{
+	display:inline;
+	margin-left:20px;
+}
+header nav li a{
+	color:#fff;
+	font-family:arial;
+	text-decoration:none;
+	font-weight:bold;
+}
+header nav li a:hover{
+	color:#e8491d;
+}
+header nav #menu_bttn{
+	display:none;
+}
+
+/**	SHOWCASE **/
+#showcase img{
+	width:100%;
+	height:600px;
+}
+
+/**	WELCOME **/
+
+
+#welcome picture{
+	float:none;
+	width:40%;
+	margin-top:200px;
+}
+#welcome picture .slideshow{
+	overflow:hidden;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#welcome picture .slideshow figure{
+	width:2500%;
+	position:relative;
+	animation:slide 150s infinite;
+}
+#welcome picture .slideshow figure img{
+	width:4%;
+	float:left;
+	height:500px;
+	margin-top:50px;
+}
+@keyframes slide{
+	0%{left:0%}
+	1%{left:0%;}
+	2%{left:-100%;}
+	3%{left:-100%;}
+	4%{left:-200%;}
+	5%{left:-200%;}
+	6%{left:-300%;}
+	7%{left:-300%;}
+	8%{left:-400%;}
+	9%{left:-400%;}
+	10%{left:-500%;}
+	11%{left:-500%;}
+	12%{left:-600%;}
+	13%{left:-600%;}
+	14%{left:-700%;}
+	15%{left:-700%;}
+	16%{left:-800%;}
+	17%{left:-800%;}
+	18%{left:-900%;}
+	19%{left:-900%;}
+	20%{left:-1000%;}
+	21%{left:-1000%;}
+	22%{left:-1100%;}
+	23%{left:-1100%;}
+	24%{left:-1200%;}
+	25%{left:-1200%;}
+	26%{left:-1300%;}
+	27%{left:-1300%;}
+	28%{left:-1400%;}
+	29%{left:-1400%;}
+	30%{left:-1500%;}
+	31%{left:-1500%;}
+	32%{left:-1600%;}
+	33%{left:-1600%;}
+	34%{left:-1700%;}
+	35%{left:-1700%;}
+	36%{left:-1800%;}
+	37%{left:-1800%;}
+	38%{left:-1900%;}
+	39%{left:-1900%;}
+	40%{left:-2000%;}
+	41%{left:-2000%;}
+	42%{left:-2100%;}
+	43%{left:-2100%;}
+	44%{left:-2200%;}
+	45%{left:-2200%;}
+	46%{left:-2300%;}
+	47%{left:-2300%;}
+	48%{left:-2400%;}
+	49%{left:-2400%;}
+	50%{left:0%;}
+}
+
+#about{
+	margin-top:50px;
+	padding-top:100px;
+	padding-bottom:100px;
+	background:#2d545e;
+	color:#fff;
+	font-family:lucida bright;
+}
+#about picture{
+	float:left;
+	width:40%;
+}
+#about picture img{
+	width:100%;
+	height:300px;
+	border-radius:20px;
+	box-shadow:0px 10px 10px #fff;
+}
+#about article{
+	float:right;
+	width:55%;
+}
+#about article h2{
+	font-family:lucida bright;
+	font-size:30px;
+}
+#about article p{
+	margin-top:30px;
+	line-height:28px;
+}
+
+/**	GALLERY **/
+#gallery #hidden_img{
+	display:none;
+}
+#gallery{
+	background:#f4f4f4;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+#gallery .bttn{
+	text-align:center;
+}
+#gallery button{
+	width:30%;
+	background:none;
+	border:#000 3px solid;
+	font-size:20px;
+	font-weight:bold;
+	color:#000;
+	height:70px;
+}
+#gallery button:hover{
+	color:#fff;
+	background:#000;
+	cursor:pointer;
+}
+#gallery .box{
+	float:left;
+	width:30%;
+	margin-left:20px;
+}
+#gallery .box img{
+	margin-top:30px;
+	width:100%;
+	height:300px;
+}
+
+
+
+
+
+
+/** TESTIMONIALS **/
+#testimonials{
+	border-top:#000 1px solid;
+	padding-top:100px;
+	padding-bottom:20px;
+}
+#testimonials .box{
+	float:left;
+	width:30%;
+	text-align:center;
+	margin-left:25px;
+}
+#testimonials .box img{
+	width:100%;
+	height:150px;
+	margin-bottom:10px;
+}
+
+/** CONTACT FORM **/
+#contact_form{
+	padding-bottom:100px;
+	padding-top:100px;
+}
+#contact_form form{
+	margin:auto;
+	border-radius:20px;
+	font-family:lucida bright;
+	background:#35424a;
+	padding:50px;
+	width:70%;
+	color:#fff;
+	text-align:center;
+}
+#contact_form form h4{
+	font-size:30px;
+	margin-bottom:30px;
+}
+#contact_form form input{
+	width:95%;
+	height:40px;
+	padding-left:20px;
+}
+#contact_form form input[type="submit"]{
+	margin-top:30px;
+	background:none;
+	border-radius:20px;
+	color:#fff;
+	border:#fff 3px solid;
+}
+#contact_form form input[type="submit"]:hover{
+	background:#fff;
+	color:#000;
+	cursor:pointer;
+	padding:0;
+}
+#contact_form form textarea{
+	width:95%;
+	height:100px;
+	padding-left:20px;
+}
+
+/** CONTACT **/
+#contact{
+	background:#12343b;
+	color:#fff;
+	padding-top:100px;
+	padding-bottom:100px;
+	font-family:lucida bright;
+}
+#contact article{
+	float:left;
+	width:40%;
+}
+#contact article h3{
+	font-size:30px;
+}
+#contact article p a{
+	line-height:28px;
+	font-family:courier new;
+	color:#fff;
+	text-decoration:none;
+	padding-top:30px;
+}
+#contact aside{
+	float:right;
+	width:50%;
+}
+#contact aside h3{
+	font-size:30px;
+}
+#contact aside p{
+	font-family:courier new;
+	line-height:28px;
+	margin-top:30px;
+}
+#contact aside p img{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+}
+
+/** FOOTER **/
+footer{
+	background:#1f1f1f;
+	padding-top:50px;
+	color:#fff;
+	text-align:center;
+	padding-bottom:50px;
+}
+
+
+
+
+
+/** OUR MENU **/
+#our_menu{
+	padding-bottom:100px;
+	padding-top:0px;
+}
+#our_menu h2{
+	text-align:center;
+	font-family:lucida bright;
+	font-size:35px;
+	padding-bottom:50px;
+	padding-top:100px;
+}
+#our_menu article{
+	float:left;
+	width:50%;
+}
+#our_menu article img{
+	width:100%;
+	height:650px;
+}
+#our_menu aside{
+	float:right;
+	width:50%;
+}
+#our_menu aside img{
+	width:100%;
+	height:650px;
+}
+
+#our_menu .box{
+	float:left;
+	padding-top:50px;
+	width:30%;
+	margin-left:20px;
+}
+#our_menu .box img{
+	width:100%;
+	height:300px;
+}
+
+
+
+
+
+
+/** ROOM PAGE **/
+#room_page{
+	padding-top:100px;
+	padding-bottom:100px;
+}
+#room_page h2{
+	text-align:center;
+	font-family:lucida bright;
+	font-size:35px;
+}
+#room_page p{
+	margin-top:30px;
+	font-family:lucida bright;
+	margin-bottom:10px;
+}
+#room_page .box{
+	float:left;
+	width:30%;
+	margin-left:20px;
+	margin-top:50px;
+}
+#room_page .box img{
+	width:100%;
+	height:300px;
+}
+
+
+
+
+/** GALLERY **/
+#our_gallery{
+	padding-top:100px;
+	padding-bottom:100px;
+}
+#our_gallery h2{
+	font-family:lucida bright;
+	font-size:35px;
+	text-align:center;
+}
+#our_gallery .box{
+	float:left;
+	padding-top:50px;
+	width:30%;
+	margin-left:20px;
+}
+#our_gallery .box img{
+	width:100%;
+	height:300px;
+}
+
+
+
+
+/**		MEDIA QUERIES 830 px **/
+@media(max-width: 830px){
+	.container{
+		width:94%;
+	}
+	header #branding,
+	header nav,
+	header nav li{
+		float:none;
+		text-align:center;
+	}
+	#showcase img{
+		width:100%;
+		height:500px;
+	}
+	/**
+	
+					this is the code of the MENU
+	
+	**/
+	#our_menu .box{
+		width:45%;
+		float:left;
+		margin-left:20px;
+	}
+	/**
+	
+					this is the code of the MENU
+	
+	**/
+	#room_page .box{
+		float:left;
+		width:45%;
+		margin-left:20px;
+	}
+	#room_page #hidden_img{
+		display:block;
+	}
+	/**
+	
+					this is the code of the GALLERY
+	
+	**/
+	#our_gallery .box{
+		float:left;
+		width:45%;
+		margin-left:20px;
+	}
+	/**
+	
+					this is the code of the testimonials
+	
+	**/
+	#testimonials .box{
+		float:left;
+		width:45%;
+		margin-left:20px;
+	}
+	#testimonials .box img{
+		margin-bottom:10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/**		MEDIA QUERIES FOR IMAGE THAT ARE FLOATED **/
+@media(max-width: 680px){
+	#gallery .box{
+		float:left;
+		width:45%;
+		margin-left:20px;
+	}
+	#gallery #hidden_img{
+		display:block;
+	}
+	
+	#testimonials .box{
+		float:left;
+		width:45%;
+		margin-left:20px;
+	}
+	#testimonials .box img{
+		margin-bottom:10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**		MEDIA QUERIES of welcome and about and responsive menu **/
+@media(max-width: 630px){
+	.container{
+		width:93%;
+	}
+	/**
+	
+					this is the code of the responsive menu
+	
+	**/
+	header nav #menu_choices{ /** THE CHOICES WILL DISAPPEAR **/
+		display:none;
+	}
+	header nav li{	/** THE MENU WILL BECOME LIST ITEM **/
+		display:list-item;
+		list-style:none;
+		padding-bottom:10px;
+	}
+	header nav #menu_bttn{ /** THE MENU THAT ARE HIDDEN WILL SHOW UP **/
+		display:block;
+	}
+	header #branding{ /** THE BRANDING WILL GO TO THE CENTER **/
+		float:left;
+	}
+	header nav #menu_bttn{ /** THE MENU THAT ARE HIDDEN WILL GO TO THE RIGHT SIDE **/
+		float:right;
+	}
+	header nav{ /** THE NAVIGATION BARS WILL DISPLAY IN THE CENTER **/
+		float:none;
+	}
+	/**
+	
+					this is the code of the showcase
+	
+	**/
+	#showcase img{
+		width:100%;
+		height:450px;
+	}
+	/**
+	
+					this is the code of the welcome
+	
+	**/
+	#welcome picture{
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:90px;
+		width:90%;
+		text-align:center;
+	}
+	#welcome picture .slideshow figure img{
+		height:300px;
+	}
+	/**
+	
+					this is the code of the about
+	
+	**/
+	#about picture,
+	#about article{
+		float:none;
+		text-align:center;
+		width:90%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#about article{
+		margin-top:50px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/** MEDIA QUERIES FOR 500PX **/
+@media(max-width: 500px){
+	/**
+	
+					this is the code of the gallery and testimonials
+	
+	**/
+	#gallery .box,
+	#testimonials .box{
+		float:none;
+		width:90%;
+		margin:auto;
+		text-align:center;
+	}
+	#contact article,
+	#contact aside{
+		float:none;
+		width:80%;
+		margin:auto;
+		text-align:center;
+	}
+	#contact aside h3{
+		margin-top:50px;
+	}
+	/**
+	
+					this is the code of the MENU
+	
+	**/
+	#our_menu .box{
+		width:95%;
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#our_menu .box img{
+		width:100%;
+	}
+	/**
+	
+					this is the code of the ROOMS
+	
+	**/
+	#room_page .box{
+		width:95%;
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	/**
+	
+					this is the code of the GALLERY
+	
+	**/
+	#our_gallery .box{
+		width:95%;
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+	}
+	
+	/**
+	
+					this is the code of the menus
+	
+	**/
+	#our_menu article,
+	#our_menu aside{
+		float:none;
+		margin-top:50px;
+		margin-left:auto;
+		margin-right:auto;
+		width:90%;
+	}
+	/**
+	
+					this is the code of the button to the gallery that is in the homepage
+	
+	**/
+	#gallery button{
+		width:90%;
+	}
+}
+
+
